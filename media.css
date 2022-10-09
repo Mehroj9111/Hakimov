@@ -9,11 +9,11 @@ body {
 
 @media (max-width: 480px) {
   .obshi {
-    width: 390px;
+    width: 100%;
     height: 100vh;
   }
   .obshi .glava {
-    width: 390px;
+    width: 100%;
     height: 100vh;
     background-image: url(./img/glaaava.jpg);
     background-position: center;
@@ -121,7 +121,7 @@ body {
   }
   .obshi .Skills {
     width: 390px;
-    height: 600px;
+    height: 980px;
     background-color: #FFFAF2;
   }
   .obshi .Skills .lef {
@@ -170,12 +170,15 @@ body {
     margin-top: 10px;
   }
   .obshi .Skills .ri {
-    width: 45%;
+    width: 480px;
+    margin-top: 450px;
+    margin-right: 100px;
     height: 100vh;
   }
   .obshi .Skills .ri .d1 {
     width: 100%;
     height: 50px;
+    margin-right: 100px;
     display: flex;
   }
   .obshi .Skills .ri .d1 h1 {
@@ -306,7 +309,7 @@ body {
     color: #333333;
   }
   .obshi .div2 .left img {
-    width: 250px;
+    width: 480px;
     margin-left: 90px;
     margin-top: 25px;
   }
@@ -337,9 +340,11 @@ body {
   }
   .obshi .div2 .right {
     width: 68%;
-    height: 650px;
+    height: 950px;
+    margin-top: 15px;
   }
   .obshi .div2 .right img {
+    width: 480px;
     opacity: 0.6;
   }
   .obshi .div2 .right img:hover {
@@ -349,14 +354,12 @@ body {
     width: 100%;
     height: 450px;
     background-color: #FFFAF2;
-    display: flex;
-    flex-wrap: wrap;
   }
   .obshi .oxir1 .div31 {
     width: 27%;
-    height: 70%;
-    margin-left: 90px;
-    margin-top: 100px;
+    height: 30%;
+    margin-left: 120px;
+    margin-top: 1550px;
   }
   .obshi .oxir1 .div31 h1 {
     font-family: "Libre Franklin";
@@ -381,9 +384,8 @@ body {
   }
   .obshi .oxir1 .div32 {
     width: 27%;
-    height: 70%;
-    margin-left: 100px;
-    margin-top: 100px;
+    height: 20%;
+    margin-left: 120px;
   }
   .obshi .oxir1 .div32 a {
     font-family: "Libre Franklin";
@@ -401,7 +403,7 @@ body {
   .obshi .oxir1 .div33 {
     width: 27%;
     height: 70%;
-    margin-top: 100px;
+    margin-left: 120px;
   }
   .obshi .oxir1 .div33 p {
     font-family: "Libre Franklin";

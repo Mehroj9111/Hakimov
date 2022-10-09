@@ -7,10 +7,10 @@ body{
 }
 @media(max-width : 480px){
     .obshi{
-        width: 390px;
+        width:100%;
         height: 100vh;
         .glava{
-            width:390px;
+            width:100%;
             height: 100vh;
             background-image: url(./img/glaaava.jpg);
             background-position: center;
@@ -118,7 +118,7 @@ body{
     }
     .Skills{
     width: 390px;
-    height: 600px;
+    height: 980px;
     background-color: #FFFAF2;
     .lef{
         width: 35%;
@@ -166,11 +166,14 @@ body{
         }
     }
     .ri{
-        width: 45%;
+        width: 480px;
+    margin-top: 450px;
+    margin-right: 100px;
         height: 100vh;
        .d1{
         width: 100%;
         height: 50px;
+        margin-right: 100px;
         display: flex;
         h1{
             font-family: 'Libre Franklin';
@@ -299,7 +302,7 @@ text-align: center;
     color: #333333;
         }
         img{
-            width: 250px;
+            width: 480px;
             margin-left: 90px;
             margin-top: 25px;
         }
@@ -332,10 +335,11 @@ text-align: center;
          }
          .right{
             width: 68%;
-            height: 650px;
+            height: 950px;
+            margin-top: 15px;
         
             img{
-            
+            width: 480px;
                 opacity: 0.6;
             }
             img:hover{
@@ -346,13 +350,11 @@ text-align: center;
         width: 100%;
         height: 450px;
         background-color: #FFFAF2;
-        display: flex;
-        flex-wrap: wrap;
         .div31{
             width: 27%;
-            height: 70%;
-            margin-left: 90px;
-            margin-top: 100px;
+            height: 30%;
+            margin-left: 120px;
+            margin-top: 1550px;
     h1{
         font-family: 'Libre Franklin';
     font-style: normal;
@@ -377,9 +379,8 @@ text-align: center;
         }
         .div32{
             width: 27%;
-            height: 70%;
-            margin-left: 100px;
-            margin-top: 100px;
+            height: 20%;
+            margin-left: 120px;
             a{
                 font-family: 'Libre Franklin';
         font-style: normal;
@@ -397,7 +398,7 @@ text-align: center;
         .div33{
             width: 27%;
             height: 70%;
-            margin-top: 100px;
+            margin-left: 120px;
             p{
                 font-family: 'Libre Franklin';
                 font-style: normal;
